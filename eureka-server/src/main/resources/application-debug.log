@@ -1,0 +1,58 @@
+2022-11-17 09:12:39 [main] INFO  r.m.e.EurekaServerApplicationTests - Starting EurekaServerApplicationTests using Java 17.0.2 on 192.168.1.21 with PID 77331 (started by aleksejagnenkov in /Users/alekseiiagnenkov/IdeaProjects/mephi/gpus/gpus/eureka-server)
+2022-11-17 09:12:39 [main] INFO  r.m.e.EurekaServerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-11-17 09:12:39 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7646731d, started on Thu Nov 17 09:12:39 MSK 2022
+2022-11-17 09:12:39 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=abbe6c4d-67b3-3f73-a836-bf8224ff1707
+2022-11-17 09:12:39 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - No 'messageSource' bean, using [Empty MessageSource]
+2022-11-17 09:12:39 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-17 09:12:40 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-11-17 09:12:40 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.c.n.e.s.EurekaController:
+	{GET [/]}: status(HttpServletRequest,Map)
+	{GET [/lastn]}: lastn(HttpServletRequest,Map)
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2022-11-17 09:12:40 [main] TRACE o.s.w.s.f.s.RouterFunctionMapping - 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-11-17 09:12:40 [main] TRACE o.s.w.s.h.SimpleUrlHandlerMapping - Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-17 09:12:40 [main] TRACE o.s.w.s.h.SimpleUrlHandlerMapping - Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-17 09:12:40 [main] DEBUG o.s.w.s.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+2022-11-17 09:12:40 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2022-11-17 09:12:40 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-17 09:12:40 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-11-17 09:12:40 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-11-17 09:12:40 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2022-11-17 09:12:40 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1668665560587 with initial instances count: 0
+2022-11-17 09:12:40 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2022-11-17 09:12:40 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2022-11-17 09:12:40 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-11-17 09:12:40 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-11-17 09:12:40 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-11-17 09:12:40 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-11-17 09:12:40 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2022-11-17 09:12:40 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2022-11-17 09:12:40 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2022-11-17 09:12:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-17 09:12:40 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - Using LifecycleProcessor [org.springframework.context.support.DefaultLifecycleProcessor@3acc65f0]
+2022-11-17 09:12:40 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ESERVER with eureka with status UP
+2022-11-17 09:12:40 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2022-11-17 09:12:40 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2022-11-17 09:12:40 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2022-11-17 09:12:40 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2022-11-17 09:12:40 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2022-11-17 09:12:40 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2022-11-17 09:12:40 [main] INFO  r.m.e.EurekaServerApplicationTests - Started EurekaServerApplicationTests in 1.768 seconds (JVM running for 2.183)
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7646731d, started on Thu Nov 17 09:12:39 MSK 2022
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ESERVER with eureka with status DOWN
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-11-17 09:12:41 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
