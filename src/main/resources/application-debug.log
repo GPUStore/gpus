@@ -6,7 +6,7 @@
 2022-11-17 09:13:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
 2022-11-17 09:13:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 2022-11-17 09:13:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 458 ms
-2022-11-17 09:13:12 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-11-17 09:13:12 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey Application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
 2022-11-17 09:13:12 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
 2022-11-17 09:13:12 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
 2022-11-17 09:13:13 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
@@ -44,7 +44,7 @@
 2022-11-17 09:13:13 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
 2022-11-17 09:13:13 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
 2022-11-17 09:13:13 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-11-17 09:13:13 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ESERVER with eureka with status UP
+2022-11-17 09:13:13 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering Application ESERVER with eureka with status UP
 2022-11-17 09:13:13 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
 2022-11-17 09:13:13 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
 2022-11-17 09:13:13 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
@@ -115,19 +115,19 @@
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
 2022-11-17 09:13:22 [main] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/
-2022-11-17 09:13:22 [main] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:22 [main] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:22 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
 2022-11-17 09:13:22 [main] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
 2022-11-17 09:13:22 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1668665602538 with initial instances count: 0
-2022-11-17 09:13:22 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AGRGTR with eureka with status UP
+2022-11-17 09:13:22 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering Application AGRGTR with eureka with status UP
 2022-11-17 09:13:22 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665602539, current=UP, previous=STARTING]
 2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AGRGTR/192.168.1.21:agrgtr:0: registering service...
 2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/AGRGTR
-2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
-2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:agrgtr:0, appName = AGRGTR, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 56762, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@493250cf] as "application/json"
+2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
+2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:agrgtr:0, appName = AGRGTR, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 56762, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@493250cf] as "Application/json"
 2022-11-17 09:13:22 [main] INFO  r.m.g.GpusAgrgtrApplication - Started GpusAgrgtrApplication in 2.035 seconds (JVM running for 2.241)
 2022-11-17 09:13:22 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance AGRGTR/192.168.1.21:agrgtr:0 with status UP (replication=false)
 2022-11-17 09:13:22 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
@@ -171,20 +171,20 @@
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
 2022-11-17 09:13:27 [main] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/
-2022-11-17 09:13:27 [main] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:27 [main] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:27 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
 2022-11-17 09:13:27 [main] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
 2022-11-17 09:13:27 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1668665607883 with initial instances count: 0
-2022-11-17 09:13:27 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SENDER with eureka with status UP
+2022-11-17 09:13:27 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering Application SENDER with eureka with status UP
 2022-11-17 09:13:27 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665607884, current=UP, previous=STARTING]
 2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SENDER/192.168.1.21:sender:0: registering service...
 2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/SENDER
-2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:27 [main] INFO  r.m.g.GpusProducerApplication - Started GpusProducerApplication in 1.297 seconds (JVM running for 1.506)
-2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:sender:0, appName = SENDER, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 56787, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@17c8a2f9] as "application/json"
+2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:sender:0, appName = SENDER, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 56787, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@17c8a2f9] as "Application/json"
 2022-11-17 09:13:27 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance SENDER/192.168.1.21:sender:0 with status UP (replication=false)
 2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
 2022-11-17 09:13:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SENDER/192.168.1.21:sender:0 - registration status: 204
@@ -229,19 +229,19 @@
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
 2022-11-17 09:13:32 [main] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/
-2022-11-17 09:13:32 [main] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:32 [main] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:32 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
 2022-11-17 09:13:32 [main] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
 2022-11-17 09:13:32 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1668665612289 with initial instances count: 3
-2022-11-17 09:13:32 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application API-GATEWAY with eureka with status UP
+2022-11-17 09:13:32 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering Application API-GATEWAY with eureka with status UP
 2022-11-17 09:13:32 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665612290, current=UP, previous=STARTING]
 2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/192.168.1.21:api-gateway:8765: registering service...
 2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/API-GATEWAY
-2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
-2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:api-gateway:8765, appName = API-GATEWAY, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 8765, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5824dfd2] as "application/json"
+2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
+2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:api-gateway:8765, appName = API-GATEWAY, hostName = 192.168.1.21, status = UP, ipAddr = 192.168.1.21, port = 8765, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5824dfd2] as "Application/json"
 2022-11-17 09:13:32 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/192.168.1.21:api-gateway:8765 with status UP (replication=false)
 2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
 2022-11-17 09:13:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/192.168.1.21:api-gateway:8765 - registration status: 204
@@ -249,12 +249,12 @@
 2022-11-17 09:13:32 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8765
 2022-11-17 09:13:32 [main] INFO  r.m.apigateway.ApiGatewayApplication - Started ApiGatewayApplication in 1.163 seconds (JVM running for 1.415)
 2022-11-17 09:13:32 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/192.168.1.21:api-gateway:8765 with status UP (replication=true)
-2022-11-17 09:13:35 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application API-GATEWAY with eureka with status DOWN
+2022-11-17 09:13:35 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering Application API-GATEWAY with eureka with status DOWN
 2022-11-17 09:13:35 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665615372, current=DOWN, previous=UP]
 2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/192.168.1.21:api-gateway:8765: registering service...
 2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/API-GATEWAY
-2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
-2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:api-gateway:8765, appName = API-GATEWAY, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 8765, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5824dfd2] as "application/json"
+2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
+2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:api-gateway:8765, appName = API-GATEWAY, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 8765, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5824dfd2] as "Application/json"
 2022-11-17 09:13:35 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/192.168.1.21:api-gateway:8765 with status DOWN (replication=false)
 2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
 2022-11-17 09:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/192.168.1.21:api-gateway:8765 - registration status: 204
@@ -262,24 +262,24 @@
 2022-11-17 09:13:37 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API/192.168.1.21:api:0 with status DOWN (replication=false)
 2022-11-17 09:13:37 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
 2022-11-17 09:13:37 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API/192.168.1.21:api:0 with status DOWN (replication=true)
-2022-11-17 09:13:38 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SENDER with eureka with status DOWN
+2022-11-17 09:13:38 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering Application SENDER with eureka with status DOWN
 2022-11-17 09:13:38 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665618380, current=DOWN, previous=UP]
 2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SENDER/192.168.1.21:sender:0: registering service...
 2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/SENDER
-2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
-2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:sender:0, appName = SENDER, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 56787, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@17c8a2f9] as "application/json"
+2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
+2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:sender:0, appName = SENDER, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 56787, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@17c8a2f9] as "Application/json"
 2022-11-17 09:13:38 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance SENDER/192.168.1.21:sender:0 with status DOWN (replication=false)
 2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
 2022-11-17 09:13:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SENDER/192.168.1.21:sender:0 - registration status: 204
 2022-11-17 09:13:38 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
 2022-11-17 09:13:38 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance SENDER/192.168.1.21:sender:0 with status DOWN (replication=true)
 2022-11-17 09:13:40 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance API/192.168.1.21:api:0 (replication=false)
-2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application AGRGTR with eureka with status DOWN
+2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering Application AGRGTR with eureka with status DOWN
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1668665620090, current=DOWN, previous=UP]
 2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AGRGTR/192.168.1.21:agrgtr:0: registering service...
 2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8761/eureka/apps/AGRGTR
-2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
-2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:agrgtr:0, appName = AGRGTR, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 56762, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@493250cf] as "application/json"
+2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
+2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.1.21:agrgtr:0, appName = AGRGTR, hostName = 192.168.1.21, status = DOWN, ipAddr = 192.168.1.21, port = 56762, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@493250cf] as "Application/json"
 2022-11-17 09:13:40 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance AGRGTR/192.168.1.21:agrgtr:0 with status DOWN (replication=false)
 2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.s.web.client.RestTemplate - Response 204 NO_CONTENT
 2022-11-17 09:13:40 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AGRGTR/192.168.1.21:agrgtr:0 - registration status: 204
@@ -289,7 +289,7 @@
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - HTTP DELETE http://localhost:8761/eureka/apps/API-GATEWAY/192.168.1.21:api-gateway:8765
-2022-11-17 09:13:40 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:40 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:40 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance API-GATEWAY/192.168.1.21:api-gateway:8765 (replication=false)
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Response 200 OK
 2022-11-17 09:13:40 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/192.168.1.21:api-gateway:8765 - deregister  status: 200
@@ -305,7 +305,7 @@
 2022-11-17 09:13:40 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - API-GATEWAY/192.168.1.21:api-gateway:8765:Cancel@localhost: missing entry.
 2022-11-17 09:13:41 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
 2022-11-17 09:13:41 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - HTTP DELETE http://localhost:8761/eureka/apps/SENDER/192.168.1.21:sender:0
-2022-11-17 09:13:41 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:41 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:41 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance SENDER/192.168.1.21:sender:0 (replication=false)
 2022-11-17 09:13:41 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Response 200 OK
 2022-11-17 09:13:41 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SENDER/192.168.1.21:sender:0 - deregister  status: 200
@@ -314,7 +314,7 @@
 2022-11-17 09:13:41 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): SENDER - 192.168.1.21:sender:0
 2022-11-17 09:13:41 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task SENDER/192.168.1.21:sender:0:Cancel@localhost failed with response code 404
 2022-11-17 09:13:41 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode - SENDER/192.168.1.21:sender:0:Cancel@localhost: missing entry.
-2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ESERVER with eureka with status DOWN
+2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering Application ESERVER with eureka with status DOWN
 2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
 2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
 2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shut down
@@ -325,7 +325,7 @@
 2022-11-17 09:13:42 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - HTTP DELETE http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0
-2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
@@ -396,7 +396,7 @@ Caused by: java.net.ConnectException: Connection refused
 
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - HTTP DELETE http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0
-2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2022-11-17 09:13:43 [SpringApplicationShutdownHook] DEBUG o.s.web.client.RestTemplate - Accept=[Application/json, Application/*+json]
 2022-11-17 09:13:43 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AGRGTR/192.168.1.21:agrgtr:0": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
