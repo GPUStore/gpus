@@ -21,8 +21,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-
-
 logging:
   file:
     name: src/main/resources/application-debug.log
