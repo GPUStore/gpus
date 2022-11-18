@@ -1,7 +1,5 @@
 server:
   port: 8765
-  servlet:
-    context-path: gpus/
 
 spring:
   application:
