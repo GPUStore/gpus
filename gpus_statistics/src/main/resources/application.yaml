@@ -1,0 +1,22 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: statisics
+  jpa:
+    database:
+    show-sql: true
+  datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/client_db
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+  second-datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/gpus_db
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+
+statistics:
+  cron: 0 12 0 * * * #?????? ???? ? ???????
