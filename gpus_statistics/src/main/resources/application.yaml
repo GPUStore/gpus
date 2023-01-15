@@ -1,22 +1,28 @@
 server:
-  port: 8090
+  port: 0
 
 spring:
   application:
-    name: statisics
+    name: statistics
   jpa:
     database:
     show-sql: true
   datasource:
-    jdbcUrl: jdbc:postgresql://localhost:5432/client_db
+    jdbcUrl: jdbc:postgresql://localhost:5433/client_db
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
   second-datasource:
-    jdbcUrl: jdbc:postgresql://localhost:5432/gpus_db
+    jdbcUrl: jdbc:postgresql://localhost:5433/gpus_db
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
 
-statistics:
-  cron: 0 12 0 * * * #?????? ???? ? ???????
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+sender:
+  url: http://localhost:8765/sender

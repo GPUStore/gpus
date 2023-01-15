@@ -25,7 +25,7 @@ import java.util.Map;
 public class ClientDatabaseConfig {
 
     private static final String PREFIX_TO_PROPERTIES = "spring.datasource";
-    public static final String REPOSITORY_PACKAGE = "ru.mephi.gpus_api.repository.clients";
+    public static final String REPOSITORY_PACKAGE = "ru.mephi.gpus_statistics.repository.clients";
     private static final String ENTITY_PACKAGE = Client.class.getPackageName();
 
     @Primary

@@ -2,6 +2,7 @@ package ru.mephi.gpus_statistics.entity.clients;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -26,6 +27,7 @@ public class Client {
     private String nickname;
 
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
+    @ToString.Exclude
     private List<ProductLink> productIds;
 
     public Client setEmail(String email) {

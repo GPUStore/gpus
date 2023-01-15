@@ -22,7 +22,7 @@ import javax.sql.DataSource;
 public class ProductDatabaseConfig {
 
     private static final String PREFIX_TO_PROPERTIES = "spring.second-datasource";
-    public static final String REPOSITORY_PACKAGE = "ru.mephi.gpus_api.repository.products";
+    public static final String REPOSITORY_PACKAGE = "ru.mephi.gpus_statistics.repository.products";
     private static final String ENTITY_PACKAGE = Product.class.getPackageName();
 
     @Bean

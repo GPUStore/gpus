@@ -1,6 +1,7 @@
 package ru.mephi.gpus_statistics.entity.clients;
 
 import lombok.Getter;
+import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -23,6 +24,7 @@ public class ProductLink {
 
     @ManyToOne
     @JoinColumn(name = "client_id", nullable = false)
+    @ToString.Exclude
     private Client client;
 
     public ProductLink setProductId(String productId) {
